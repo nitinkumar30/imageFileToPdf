@@ -12,6 +12,13 @@
 > 4. And finally, convert the word file hence created into a pdf file.  
 
 
+
+https://user-images.githubusercontent.com/40369168/197052863-ef98f8ee-fd87-403b-95f0-3c7139971bdb.mp4
+
+
+
+
+
 # Requirements
 
 1. You need to download [tesseract](https://github.com/UB-Mannheim/tesseract/wiki).  
