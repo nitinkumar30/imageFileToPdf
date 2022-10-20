@@ -2,6 +2,7 @@
 
 > A framework made for converting an image file to PDF file.  
 > Usage of just 4 packages of Python.  
+> For latest code on how to convert multiple image files to pdf, check [multiple-files branch](https://github.com/nitinkumar30/imageFileToPdf/tree/multiple-files).  
 
 
 # Working
