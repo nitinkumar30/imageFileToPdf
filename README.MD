@@ -35,7 +35,7 @@ convertDocxToPdf(j, k) # - convert it into pdf
 ```
 
 3. You don't need to change anything in this file. The changes which you need to make is in [variables](assets/variables.py) file.  
-4. Just change the value of following series variable:
+4. Just change the value of following pattern variable in [variables](assets/variables.py):
    1. ```pattern = str(i)```  
 
 
