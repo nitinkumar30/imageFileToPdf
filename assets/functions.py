@@ -5,7 +5,6 @@ from docx2pdf import convert
 
 from variables import *
 
-
 # functions
 # - extract text from image file
 # - append data into word file
@@ -19,6 +18,7 @@ def extractTextFromImg(imgPath):
     pytesseract.tesseract_cmd = tesseractPath
 
     # Open image with PIL
+    print(imgPath)
     img = Image.open(imgPath)
 
     # Extract text from image

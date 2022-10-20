@@ -6,7 +6,7 @@
 
 # Working
 
-> 1. First, this will seacrh for the text inside the image file(most probably .jpg/.PNG file).  
+> 1. First, this will search for the text inside the image file(most probably .jpg/.PNG file).  
 > 2. Then, it'll fetch the text & store it in a variable.  
 > 3. And then, writes it into a docx file(So that if it extracts wrong text, you can manually type the correct text).  
 > 4. And finally, convert the word file hence created into a pdf file.  
@@ -29,16 +29,21 @@
 2. Just check the following lines in the code:
 
 ```commandline
-text = extractTextFromImg(imgPath) # - extract text from image file
-appendDataToWord(wordPath, text) # - append data into word file
-convertDocxToPdf(wordPath, pdfPath) # - convert it into pdf
+text = extractTextFromImg(i) # - extract text from image file
+appendDataToWord(j, text) # - append data into word file
+convertDocxToPdf(j, k) # - convert it into pdf
 ```
 
 3. You don't need to change anything in this file. The changes which you need to make is in [variables](assets/variables.py) file.  
-4. Just change the value of following 4 variables:
-   1. ```tesseractPath # the tesseract path you just downloaded. The one written in the file is default path```  
-   2. ```wordPath # the word file path. Put the word file path under wordFiles directory for better readability```  
-   3. ```pdfPath # the pdf file path. Put the pdf file path under pdfFiles directory for better readability```  
+4. Just change the value of following series variable:
+   1. ```pattern = str(i)```  
+
+
+# How to change the pattern
+
+1. pattern is nothing but how image files are arranged in the directory
+2. Let's say the sequence in which filename is present 
+3. For eg:- If the filename is img1.PNG, put ```pattern = 'img' +str(i)+```
 
 
 # Author
