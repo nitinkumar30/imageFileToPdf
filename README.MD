@@ -44,6 +44,8 @@ convertDocxToPdf(j, k) # - convert it into pdf
 3. You don't need to change anything in this file. The changes which you need to make is in [variables](assets/variables.py) file.  
 4. Just change the value of following pattern variable in [variables](assets/variables.py):
    1. ```pattern = str(i)```  
+5. Also, you need to put value of total files inside the imgFiles directory in the variable noOfFiles variable.  
+   1.   ```noOfFiles = 3  # Put the total no of files present.``` 
 
 
 # How to change the pattern
